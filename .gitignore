@@ -40,3 +40,6 @@
 go.work
 
 # End of https://www.toptal.com/developers/gitignore/api/git,go
+
+.go/wrapper/go
+.go/wrapper/tmp
