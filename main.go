@@ -36,7 +36,7 @@ func main() {
  	// baseURLstr := flag.String("idp", "", "The URL to the IDP")
 	flag.Parse()
 
-	baseURL, err := url.Parse("https://saml-idp-dot-chux-testing.wn.r.appspot.com")
+	baseURL, err := url.Parse("https://<gae-specific>.appspot.com")
 	if err != nil {
 		logr.Fatalf("cannot parse base URL: %v", err)
 	}
