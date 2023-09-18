@@ -1,5 +1,5 @@
 build:
 
 ```shell
-go build
+./gow build
 ```
